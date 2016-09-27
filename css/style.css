@@ -1,6 +1,6 @@
-body .container {
+body .container { /** REVIEW : no need to keep adding body all the time. classes are very specific when targetting**/
   display: block;
-  margin: 5vh auto;
+  margin: 5vh auto; /**REVIEW : Good job using vh**/
   background-color: #DCDCD0;
   padding: 1.5em;
   position: center;
@@ -31,3 +31,5 @@ body .textcontainer {
 h1 {
 	font-size: 50px;
 }
+
+/**The css seems totally fine. Try using more meaningful commit names. like css updated and something similar which tells you specifically what you did **/
